@@ -259,3 +259,8 @@ The dataset was divided into training and testing sets using an 80/20 split with
 A Logistic Regression classifier was used to predict Titanic passenger survival.
 
 The preprocessing and model training workflow was organized using a scikit-learn `Pipeline` and `ColumnTransformer`.
+### Model Accuracy
+
+The Logistic Regression model achieved an accuracy of **80.45%** on the test dataset.
+
+This accuracy represents the percentage of Titanic passengers in the test set that were correctly classified as either survivors or non-survivors.
