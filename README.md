@@ -276,3 +276,12 @@ It shows four types of predictions:
 - **True Positive (TP):** Passengers who survived and were correctly predicted as survivors.
 
 The confusion matrix provides more detailed information about the model's correct and incorrect predictions beyond the overall accuracy.
+### Project Progression
+
+This project was developed progressively across three tasks:
+
+- **Task 1 — Exploratory Data Analysis:** Explored the Titanic dataset and analyzed important patterns related to passenger survival.
+- **Task 2 — Data Cleaning & Visualization:** Handled missing values, detected outliers, created visualizations, and performed survival analysis.
+- **Task 3 — Machine Learning Classification:** Prepared the machine learning dataset, encoded categorical features, trained a Logistic Regression model, generated predictions, and evaluated the model using accuracy and a confusion matrix.
+
+The project demonstrates a complete progression from data exploration and cleaning to machine learning classification.
