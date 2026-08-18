@@ -264,3 +264,15 @@ The preprocessing and model training workflow was organized using a scikit-learn
 The Logistic Regression model achieved an accuracy of **80.45%** on the test dataset.
 
 This accuracy represents the percentage of Titanic passengers in the test set that were correctly classified as either survivors or non-survivors.
+### Confusion Matrix
+
+The confusion matrix was used to evaluate the classification results of the Logistic Regression model.
+
+It shows four types of predictions:
+
+- **True Negative (TN):** Passengers who did not survive and were correctly predicted as non-survivors.
+- **False Positive (FP):** Passengers who did not survive but were incorrectly predicted as survivors.
+- **False Negative (FN):** Passengers who survived but were incorrectly predicted as non-survivors.
+- **True Positive (TP):** Passengers who survived and were correctly predicted as survivors.
+
+The confusion matrix provides more detailed information about the model's correct and incorrect predictions beyond the overall accuracy.
