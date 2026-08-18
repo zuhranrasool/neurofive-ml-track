@@ -225,3 +225,37 @@ The objective is to build a Logistic Regression model that predicts whether a Ti
 - **Task 1:** Exploratory Data Analysis (EDA)
 - **Task 2:** Data Cleaning & Visualization
 - **Task 3:** Machine Learning Classification
+### Machine Learning Approach
+
+#### Dataset
+The project uses the Titanic dataset from `data/train.csv`.
+
+#### Features
+The following features were selected for prediction:
+
+- Pclass
+- Sex
+- Age
+- SibSp
+- Parch
+- Fare
+- Embarked
+
+`PassengerId` was excluded because it does not provide meaningful predictive information for passenger survival.
+
+#### Target Variable
+The target variable is `Survived`, where:
+
+- `0` = Did not survive
+- `1` = Survived
+
+#### Data Preprocessing
+The dataset was prepared by handling missing values during the previous data-cleaning task. Numerical features were standardized using `StandardScaler`, while categorical features were converted into numerical form using `OneHotEncoder`.
+
+#### Train/Test Split
+The dataset was divided into training and testing sets using an 80/20 split with stratification to maintain a similar survival distribution in both sets.
+
+#### Machine Learning Model
+A Logistic Regression classifier was used to predict Titanic passenger survival.
+
+The preprocessing and model training workflow was organized using a scikit-learn `Pipeline` and `ColumnTransformer`.
