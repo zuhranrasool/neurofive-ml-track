@@ -212,3 +212,16 @@ GitHub: https://github.com/zuhranrasool
 ## 📜 License
 
 This project is licensed under the MIT License.
+## Task 3 — Titanic Survival Prediction
+
+### Machine Learning Classification
+
+Task 3 extends the Titanic project from exploratory data analysis and data cleaning into machine learning classification.
+
+The objective is to build a Logistic Regression model that predicts whether a Titanic passenger survived based on selected passenger features.
+
+### Project Progression
+
+- **Task 1:** Exploratory Data Analysis (EDA)
+- **Task 2:** Data Cleaning & Visualization
+- **Task 3:** Machine Learning Classification
